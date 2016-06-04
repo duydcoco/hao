@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('haoApp')
+        .module('haoApp')   //用来获取应用
         .controller('ActivationController', ActivationController);
 
     ActivationController.$inject = ['$stateParams', 'Auth', 'LoginService'];
