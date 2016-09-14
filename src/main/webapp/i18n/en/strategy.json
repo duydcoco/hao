@@ -1,0 +1,25 @@
+{
+    "haoApp": {
+        "strategy" : {
+            "home": {
+                "title": "Strategies",
+                "createLabel": "Create a new Strategy",
+                "createOrEditLabel": "Create or edit a Strategy",
+                "search": "Search for Strategy"
+            },
+            "created": "A new Strategy is created with identifier {{ param }}",
+            "updated": "A Strategy is updated with identifier {{ param }}",
+            "deleted": "A Strategy is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Strategy {{ id }}?"
+            },
+            "detail": {
+                "title": "Strategy"
+            },
+            "divType": "Div Type",
+            "divData": "Div Data",
+            "msgCode": "Msg Code",
+            "errorMsg": "Error Msg"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "divType",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "divData",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "msgCode",
+            "fieldType": "Integer",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "errorMsg",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160604104613",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "strategy",
+    "pagination": "pager"
+}
