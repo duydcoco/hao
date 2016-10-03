@@ -50,13 +50,13 @@ jhipster:
         corePoolSize: 2
         maxPoolSize: 50
         queueCapacity: 10000
-    #cors: #By default CORS are not enabled. Uncomment to enable.
-        #allowed-origins: "*"
-        #allowed-methods: GET, PUT, POST, DELETE, OPTIONS
-        #allowed-headers: "*"
-        #exposed-headers:
-        #allow-credentials: true
-        #max-age: 1800
+    cors: #By default CORS are not enabled. Uncomment to enable.
+        allowed-origins: "*"
+        allowed-methods: GET, PUT, POST, DELETE, OPTIONS
+        allowed-headers: "*"
+        exposed-headers:
+        allow-credentials: true
+        max-age: 1800
     mail:
         from: hao@localhost
     swagger:
@@ -72,3 +72,14 @@ jhipster:
     ribbon:
         # comma seperated list of profiles to show a ribbon on the GUI
         displayOnActiveProfiles: dev
+
+# ===================================================================
+# Gateway specific properties
+# ===================================================================
+gateway:
+    kong: # Gateway backend infomation
+        admin:
+            host: 127.0.0.1
+            port: 8001
+        invoke:
+            timeout: 5000

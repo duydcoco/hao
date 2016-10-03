@@ -1,6 +1,7 @@
 package com.hao.app;
 
 import com.hao.app.config.Constants;
+import com.hao.app.config.GatewayProperties;
 import com.hao.app.config.JHipsterProperties;
 
 import org.slf4j.Logger;
@@ -25,7 +26,7 @@ import java.util.Map;
 
 @ComponentScan
 @EnableAutoConfiguration(exclude = { MetricFilterAutoConfiguration.class, MetricRepositoryAutoConfiguration.class, HazelcastAutoConfiguration.class })
-@EnableConfigurationProperties({ JHipsterProperties.class, LiquibaseProperties.class })
+@EnableConfigurationProperties({ JHipsterProperties.class, LiquibaseProperties.class, GatewayProperties.class})
 public class HaoApp {
 
     private static final Logger log = LoggerFactory.getLogger(HaoApp.class);
